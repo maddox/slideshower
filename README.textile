@@ -6,9 +6,8 @@ Simple way to generate the json that will power a future iPhone app that does si
 
 h2. Install
 
-<code>sudo gem sources -a http://gems.github.com</code>
-
-<code>sudo gem install maddox-slideshower</code>
+* <code>sudo gem sources -a http://gems.github.com</code>
+* <code>sudo gem install maddox-slideshower</code>
 
 h2. Usage
 
