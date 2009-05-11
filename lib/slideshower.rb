@@ -7,7 +7,7 @@ class Slideshower
 
     Dir.open(Dir.pwd).each do |file|
       next if file =~ /^\./ || file =~ /index.json/ || File.directory?(File.join(Dir.pwd,file))
-      images << file
+      images << file if file =~ /\.jpg|jpeg|gif|png$/
     end
 
     File.new(File.join(Dir.pwd, "index.json"), 'w+').puts images.to_json
