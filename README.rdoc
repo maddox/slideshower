@@ -1,7 +1,0 @@
-= slideshower
-
-Description goes here.
-
-== Copyright
-
-Copyright (c) 2009 Jon Maddox. See LICENSE for details.

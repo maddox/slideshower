@@ -1,0 +1,23 @@
+h1. Slideshower!
+
+h2. What?
+
+Simple way to generate the json that will power a future iPhone app that does simple slide shows.
+
+h2. Install
+
+gem install maddox-slideshower --source http://gems.github.com
+
+h2. Usage
+
+Go to a directory containing all the images you want in the slide show.
+
+$ slideshower
+
+Slideshower will take all the image files in the directory and put them into a json string located at index.json.
+
+The url to this directory will eventually be used for a sweet free iPhone app. It's an easy way to show your client iPhone mocks.
+
+h2. Copyright
+
+Copyright (c) 2009 Jon Maddox. See LICENSE for details.
