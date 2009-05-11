@@ -5,14 +5,14 @@ h2. What?
 Simple way to generate the json that will power a future iPhone app that does simple slide shows.
 
 h2. Install
-
-gem install maddox-slideshower --source http://gems.github.com
+<code>sudo gem sources -a http://gems.github.com</code>
+<code>sudo gem install maddox-slideshower</code>
 
 h2. Usage
 
-Go to a directory containing all the images you want in the slide show.
+Go to a directory containing all the images you want in the slide show and run:
 
-$ slideshower
+<code>slideshower</code>
 
 Slideshower will take all the image files in the directory and put them into a json string located at index.json.
 
