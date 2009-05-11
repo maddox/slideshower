@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "slideshower"
     gem.summary = %Q{initial}
-    gem.email = "jon@jonsthoughtsoneverything.com"
+    gem.email = "jon@mustacheinc.com"
     gem.homepage = "http://github.com/maddox/slideshower"
     gem.authors = ["Jon Maddox"]
 
